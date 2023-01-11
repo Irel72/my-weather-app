@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="css\app.css">
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    </head>
+
+<body>
+    <div class="container">
+        <header>
+    <input id="search-form" type="text" placeholder="Type a city">
+    <button id="city-input">search</button>
+
+<p>
+    <h1 id="city">
+        New York
+    </h1>
+    <h3 id="date">
+
+    </h3>
+    <em>partly sunny</em> <br>
+       <strong id="temperature">⛅28°</strong> 
+    </p>
+</header>
+
+
+<div class="container text-center">
+    <div class="row">
+    <div class="col order-first">28°<br>
+        ⛅<br>
+        16:00
+    </div>
+    <div class="col order-second">29°<br>
+        ⛅<br>
+        17:00
+    </div>
+    <div class="col order-third">29°<br>
+        ⛅<br>
+        18:00
+    </div>
+    <div class="col order-fourth">27°<br>
+        🌧<br>
+        19:00
+    </div>
+    <div class="col order-fifth">27°<br>
+        🌧<br>
+        20:00
+    </div>
+    <div class="col order-sixth">26°<br>
+        🌧<br>
+        21:00
+    </div>
+</div>
+</div>
+
+<div class="forecast">
+    Daily Forecast
+</div>
+
+<table class="table">
+    <thead class="showers">
+        <tr>
+            Expect showers Monday morning
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row"></th>
+            <td>Today</td>
+            <td>⛅ Partly sunny</td>
+            <td>31°</td>
+            <td>24°</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Sat</td>
+            <td>⛅ Partly sunny</td>
+            <td>30°</td>
+            <td>22°</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Sun</td>
+            <td>☁ Cloudy</td>
+            <td>27°</td>
+            <td>22°</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Mon</td>
+            <td>🌦 Thunderstorms</td>
+            <td>28°</td>
+            <td>20°</td>
+        
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Tue</td>
+            <td>⛈ Mostly cloud w\t-storms</td>
+            <td>31°</td>
+            <td>23°</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Wed</td>
+            <td>🌦 Thunderstorms</td>
+            <td>29°</td>
+            <td>23°</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>Thur</td>
+            <td>🌕 Hot</td>
+            <td>34°</td>
+            <td>25°</td>
+        </tr>
+        
+    </tbody>
+</table>
+</div>
+    <script src="app_2.js"></script>
+</body>
+
+</html>

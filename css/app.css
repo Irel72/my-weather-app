@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    background: url('../images/cloud.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    padding: 30px;
+    width: 100%;
+    text-align: left;
+}
+
+input{
+    width: 330px;
+    background: transparent;
+    border-bottom: solid white;
+    font-size: 18px;
+}
+
+button{
+    background: rgb(52, 65, 247);
+    color: antiquewhite;
+    border: transparent;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+button:hover{
+    color: rgb(52, 65, 247);
+    background: antiquewhite;
+}
+
+h1{
+    text-align: left;
+    margin-top: 50px;
+}
+
+p{
+    padding:0;
+    width: 60px;
+}
+
+span{
+    font-size: 30px;
+}
+
+.text-center{
+    background-color:rgba(10, 0, 0, 0.5);
+}
+
+.forecast{
+padding: 20px;
+background-color: rgb(34, 34, 32);
+color: rgb(241, 236, 229);
+transition: all 200ms ease-in-out;
+}
+
+.forecast:hover{
+    color: rgb(133, 136, 187);
+}
+
+.col{
+    color: rgb(1, 2, 17);
+    transition: all 200ms ease-in-out;
+}
+
+.col:hover{
+color: antiquewhite;
+font-weight: bold;
+}
+
+tr{
+    transition: all 200ms ease-in-out;
+}
+
+tr:hover{
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+table{
+    background-color: rgba(10, 0, 0, 0.5);
+    padding: 90px;
+}
+
